@@ -1,0 +1,60 @@
+/* Using Tag name selector */
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h2{
+    margin-top: 70px;
+    text-align: center;
+}
+
+form{
+    border: 3px solid #ffffff;
+    max-width: 500px;
+    background-color: #800080;
+    margin: auto;
+}
+
+button{
+    background-color: #04a9a9;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    max-width: 700px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+/* Using attribute selector */
+
+input[type=text], input[type=password]{
+    max-width: 700px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+/* Using Pseudo-element selector */
+
+h2::first-letter{
+    text-transform: capitalize;
+}
+
+/* Using class name selector */
+
+.container{
+    padding: 16px;
+}
+
+/* Using id selector */
+
+#secondCon{
+    color: #000000;
+    background-color: #ffffff;
+}
